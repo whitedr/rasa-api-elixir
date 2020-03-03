@@ -6,6 +6,7 @@ defmodule RasaApi.Model.EvaluationIntentsResultIntentEvaluation do
   @moduledoc """
   Rasa NLU intent evaluation
   """
+  alias RasaApi.Model.EvaluationIntentsResultIntentEvaluationPredictions
 
   @derive [Poison.Encoder]
   defstruct [

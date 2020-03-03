@@ -6,6 +6,7 @@ defmodule RasaApi.Model.InlineResponse2001 do
   @moduledoc """
   
   """
+  alias RasaApi.Model.Map
 
   @derive [Poison.Encoder]
   defstruct [

@@ -6,6 +6,8 @@ defmodule RasaApi.Model.BotMessage do
   @moduledoc """
   
   """
+  alias RasaApi.Model.BotMessageButtons
+  alias RasaApi.Model.BotMessageAttachement
 
   @derive [Poison.Encoder]
   defstruct [

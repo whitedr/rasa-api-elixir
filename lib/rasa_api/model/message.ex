@@ -6,6 +6,7 @@ defmodule RasaApi.Model.Message do
   @moduledoc """
   
   """
+  alias RasaApi.Model.ParseResult
 
   @derive [Poison.Encoder]
   defstruct [

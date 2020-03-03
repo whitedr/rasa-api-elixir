@@ -6,6 +6,7 @@ defmodule RasaApi.Model.EvaluationIntentsResultEntityEvaluation do
   @moduledoc """
   Rasa NLU entity evaluation
   """
+  alias RasaApi.Model.EvaluationIntentsResultEntityEvaluationExtractorName
 
   @derive [Poison.Encoder]
   defstruct [

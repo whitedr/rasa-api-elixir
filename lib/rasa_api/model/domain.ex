@@ -6,6 +6,9 @@ defmodule RasaApi.Model.Domain do
   @moduledoc """
   The bot&#39;s domain.
   """
+  alias RasaApi.Model.DomainConfig
+  alias RasaApi.Model.SlotDescription
+  alias RasaApi.Model.TemplateDescription
 
   @derive [Poison.Encoder]
   defstruct [

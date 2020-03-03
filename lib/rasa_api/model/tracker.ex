@@ -6,6 +6,9 @@ defmodule RasaApi.Model.Tracker do
   @moduledoc """
   Conversation tracker which stores the conversation state.
   """
+  alias RasaApi.Model.ParseResult
+  alias RasaApi.Model.Event
+  alias RasaApi.Model.TrackerActiveForm
 
   @derive [Poison.Encoder]
   defstruct [

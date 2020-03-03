@@ -6,6 +6,7 @@ defmodule RasaApi.Model.EvaluationStoriesResult do
   @moduledoc """
   
   """
+  alias RasaApi.Model.EvaluationStoriesResultActions
 
   @derive [Poison.Encoder]
   defstruct [

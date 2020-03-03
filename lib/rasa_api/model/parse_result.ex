@@ -6,6 +6,9 @@ defmodule RasaApi.Model.ParseResult do
   @moduledoc """
   NLU parser information. If set, message will not be passed through NLU, but instead this parsing information will be used.
   """
+  alias RasaApi.Model.Entity
+  alias RasaApi.Model.Intent
+  alias RasaApi.Model.Intent
 
   @derive [Poison.Encoder]
   defstruct [

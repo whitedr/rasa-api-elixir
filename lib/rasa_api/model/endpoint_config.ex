@@ -6,6 +6,9 @@ defmodule RasaApi.Model.EndpointConfig do
   @moduledoc """
   
   """
+  alias RasaApi.Model.Map
+  alias RasaApi.Model.Map
+  alias RasaApi.Model.Map
 
   @derive [Poison.Encoder]
   defstruct [

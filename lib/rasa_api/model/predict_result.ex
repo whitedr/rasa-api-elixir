@@ -6,6 +6,8 @@ defmodule RasaApi.Model.PredictResult do
   @moduledoc """
   
   """
+  alias RasaApi.Model.PredictResultScores
+  alias RasaApi.Model.Tracker
 
   @derive [Poison.Encoder]
   defstruct [

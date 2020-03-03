@@ -6,6 +6,7 @@ defmodule RasaApi.Model.ModelRequest do
   @moduledoc """
   
   """
+  alias RasaApi.Model.EndpointConfig
 
   @derive [Poison.Encoder]
   defstruct [

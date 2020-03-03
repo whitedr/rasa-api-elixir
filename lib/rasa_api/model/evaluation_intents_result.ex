@@ -6,6 +6,8 @@ defmodule RasaApi.Model.EvaluationIntentsResult do
   @moduledoc """
   
   """
+  alias RasaApi.Model.EvaluationIntentsResultIntentEvaluation
+  alias RasaApi.Model.EvaluationIntentsResultEntityEvaluation
 
   @derive [Poison.Encoder]
   defstruct [

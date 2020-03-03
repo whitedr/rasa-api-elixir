@@ -6,6 +6,7 @@ defmodule RasaApi.Model.Error do
   @moduledoc """
   
   """
+  alias RasaApi.Model.Map
 
   @derive [Poison.Encoder]
   defstruct [

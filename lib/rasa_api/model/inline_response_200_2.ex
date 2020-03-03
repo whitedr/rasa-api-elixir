@@ -6,6 +6,8 @@ defmodule RasaApi.Model.InlineResponse2002 do
   @moduledoc """
   
   """
+  alias RasaApi.Model.Tracker
+  alias RasaApi.Model.BotMessage
 
   @derive [Poison.Encoder]
   defstruct [
