@@ -10,7 +10,7 @@ defmodule RasaApi.Connection do
   use Tesla
 
   # Add any middleware here (authentication)
-  plug Tesla.Middleware.BaseUrl, "http://localhost:5005"
+  plug Tesla.Middleware.BaseUrl, Application.get_env(:rasa_api, :url, "http://localhost:5005")
   plug Tesla.Middleware.Headers, [{"user-agent", "Elixir"}]
   plug Tesla.Middleware.EncodeJson, engine: Poison
 

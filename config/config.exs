@@ -10,11 +10,11 @@ use Mix.Config
 
 # You can configure for your application as:
 #
-#     config :rasa___server_endpoints, key: :value
+#     config :rasa_api, key: :value
 #
 # And access this configuration in your application as:
 #
-#     Application.get_env(:rasa___server_endpoints, :key)
+#     Application.get_env(:rasa_api, :key)
 #
 # Or configure a 3rd-party app:
 #
