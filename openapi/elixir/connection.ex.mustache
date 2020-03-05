@@ -10,6 +10,7 @@ defmodule {{moduleName}}.Connection do
   plug Tesla.Middleware.BaseUrl, Application.get_env(:{{packageName}}, :url, "{{{basePath}}}")
   plug Tesla.Middleware.Headers, [{"user-agent", "Elixir"}]
   plug Tesla.Middleware.EncodeJson, engine: Poison
+  plug Tesla.Middleware.Query, [token: Application.get_env(:{{packageName}}, :token, "")]
 
   {{#hasAuthMethods}}
   {{#authMethods}}

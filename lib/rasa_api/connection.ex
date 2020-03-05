@@ -13,6 +13,7 @@ defmodule RasaApi.Connection do
   plug Tesla.Middleware.BaseUrl, Application.get_env(:rasa_api, :url, "http://localhost:5005")
   plug Tesla.Middleware.Headers, [{"user-agent", "Elixir"}]
   plug Tesla.Middleware.EncodeJson, engine: Poison
+  plug Tesla.Middleware.Query, [token: Application.get_env(:rasa_api, :token, "")]
 
   @doc """
   Configure a client connection using Basic authentication.
